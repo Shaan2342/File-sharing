@@ -65,9 +65,9 @@ secsend is now accessible at http://127.0.0.1:8000.
 Configuration
 Configure secsend using environment variables:
 
-SECSEND_FILESIZE_LIMIT: Maximum file size in bytes (0 means no limit).
-SECSEND_TIMEOUT_S_VALID: Valid time limits, as a comma-separated list of seconds (0 seconds means no limit).
-SECSEND_BACKEND_FILES_ROOT: Path to secsend's data storage.
+FILESIZE_LIMIT: Maximum file size in bytes (0 means no limit).
+TIMEOUT_S_VALID: Valid time limits, as a comma-separated list of seconds (0 seconds means no limit).
+BACKEND_FILES_ROOT: Path to secsend's data storage.
 Command Line Usage
 Installation
 bash
